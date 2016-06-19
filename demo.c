@@ -7,9 +7,6 @@ A very simple example using lp_solve, with the following problem:
     +C1 -C2 = 0;
 To compile using GCC:
     $ gcc demo2.c -o demo2 -llpsolve55
-This obviously requires the lpsolve55 library and development headers to be
-installed. On OS X, you can do this using homebrew (tap homebrew-science):
-    $ homebrew install lp_solve
 */
 
 #include "lp_lib.h"
